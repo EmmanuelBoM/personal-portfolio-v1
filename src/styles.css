@@ -1,0 +1,705 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+span {
+    color: #90EFDF;
+}
+
+.subtitle {
+    font-family: 'Fira Code';
+    font-weight: 400;
+}
+
+html{
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+p{
+    font-size: 1.8rem;
+    font-family: 'Mulish';
+    font-weight: 500;
+}
+
+h1{
+    font-size: 6.4rem;
+}
+h2{
+    font-size: 4.8rem;
+}
+
+h3 {
+    font-size: 3.6rem;
+}
+
+h4{
+    font-size: 2.4rem  ;
+}
+
+h5{
+    font-size: 2rem;
+}
+
+i {
+    font-size: 4vw;
+}
+
+
+body {
+    font-family: 'Mulish';
+    background: #292D3E;
+    color: #DFDFDF;
+    overflow-x: hidden;
+}
+
+header {
+    margin-top: 5rem;
+    margin-right: 10rem;
+}
+
+header .cont-items {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header .cont-items ul {
+    width: 50rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    font-family: 'Fira Code';
+}
+
+header .cont-items ul li a {
+    text-decoration: none;
+    color: #DFDFDF;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.m-weight{
+    font-weight: 400;
+}
+
+main {
+    overflow: hidden;
+}
+
+main .intro {
+    margin-left: 10%;
+    margin-top: 15rem;
+    margin-bottom: 30rem;
+    display: flex;
+    flex-direction: row;
+}
+
+
+main .intro-text{
+    width: 85%;
+}
+
+main .intro-icon{
+    width: 25%;
+}
+
+main .animated-icon{
+    width: 130%;
+    margin-top: -10rem;
+}
+
+main .animated-icon .computer{
+    fill: none;
+    fill-rule:nonzero;
+    stroke:#90EFDF;
+    stroke-width: 5;
+    transform: rotate(-15deg);
+}
+
+main .animated-icon .computer path{
+    stroke-dasharray: 2200;
+    stroke-dashoffset: 2200;
+    animation: computer-drawing 15s linear forwards infinite;
+}
+
+
+main .intro .greeting {
+    font-family: 'Fira code';
+    color: #90EFDF;
+}
+
+main .intro .title1 {
+    font-family: 'Mulish';
+    color: #DFDFDF;
+}
+
+main .intro .title2 {
+    font-family: 'Mulish';
+    color: #8892B0
+}
+
+main .intro .cont-text {
+    margin-top: 30rem;
+    max-width: 50rem;
+    font-family: 'Mulish';
+    color: #8892B0;
+    margin-bottom:30rem;
+}
+
+
+
+main .about-me {
+    margin-left:10%;
+    margin-right: 10%;
+    margin-top: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 300px;
+}
+
+main .about-me .title {
+    display: flex;
+    margin-left: 50px;
+    justify-content: flex-start;
+}
+
+main .about-me .cont-about {
+    display: flex;
+    flex-direction: row
+}
+
+main .about-me .cont-lines {
+    width: 12%;
+    display: flex;
+    flex-direction: row;
+}
+
+main .about-me .cont-lines .vl1 {
+    border-left: 1px solid #8892B0;
+    height: 500px;
+}
+
+main .about-me .cont-lines .vl2 {
+    margin-left: 50px;
+    margin-top: 50px;
+    border-left: 1px solid #8892B0;
+    height: 450px;
+}
+
+main .about-me .cont-texts {
+    margin-top: 50px;
+    width: 50%;
+}
+
+main .about-me .cont-texts h1 {
+    width: 100%;
+    text-align: justify;
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+
+main .about-me .cont-texts p {
+    text-align: justify;
+    font-family: 'Mulish';
+    font-weight: bold;
+}
+
+main .about-me .cont-texts .t1 {
+    width: 85%;
+    color: #8892B0;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+main .about-me .cont-texts .t2 {
+    width: 85%;
+    color: #DFDFDF;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+main .about-me .cont-texts .skills {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+main .about-me .cont-texts .skills ul li {
+    font-family: 'Mulish';
+    font-weight: bold;
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+main .about-me .cont-texts .skills ul li i {
+    color: #90EFDF;
+	margin-right: 20px;
+	font-size: 2.5vw;
+}
+
+main .about-me .cont-picture {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+}
+
+main .about-me .cont-picture img {
+    width: 50%;
+}
+.cont-email{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icono-email{
+    font-size: 3rem;
+    margin-right: 2rem;
+    color:#89E4D6;
+}
+
+.icono-gh{
+    margin-top: 4rem;
+    font-size: 8rem;
+    color: #90EFDF;
+}
+
+.github-text{
+    font-family: 'Mulish';
+    color: #90EFDF;
+}
+
+.skill{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+main .projects {
+    margin-left:5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30rem;
+}
+
+main .projects .title {
+    text-align: center;
+    padding: 20px;
+    width: 50%;
+    border-bottom: 1px solid #8892B0;
+}
+
+main .projects .title h1 {
+    font-family: 'Fira Code';
+    font-weight: 400;
+}
+
+
+main .contact-me {
+    margin-left:15%;
+    margin-right: 15%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 200px;
+}
+
+main .contact-me .title {
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 6rem;
+}
+
+main .contact-me h1 {
+    font-family: 'Fira Code';
+    font-weight: 400;
+    align-self: flex-end;
+}
+
+main .contact-me .cont-contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+main .contact-me .cont-items {
+    align-items: center;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+main .contact-me .cont-items .cont-text {
+    font-size: 3rem;
+}
+
+main .contact-me .cont-items .cont-text span {
+    color: #8892B0;
+}
+
+main .contact-me .cont-items .cont-media a {
+    text-decoration: none;
+    color: #90EFDF;
+}
+
+main .contact-me .cont-items .cont-media {
+    margin-top: 50px;
+    width: 60%;
+    color: #90EFDF;
+    font-size: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+main .contact-me .cont-lines {
+    width: 12%;
+    display: flex;
+    flex-direction: row;
+}
+
+main .contact-me .cont-lines .vl2 {
+    margin-left: 50px;
+    border-left: 1px solid #8892B0;
+    height: 300px;
+}
+
+main .contact-me .cont-lines .vl1 {
+    margin-top: 50px;
+    border-left: 1px solid #8892B0;
+    height: 250px;
+}
+
+.logo-fiverr{
+    width: 6rem;
+}
+.logo-linkedin{
+    font-size: 6rem;
+}
+
+
+.img-round{
+    width: 30rem;
+    height: 30rem;
+    border-radius: 25rem;
+    background-color: #fff;
+    background-image: url('./assets/profile-pic_Compressed.png');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+.cont-cards{
+    margin-top: 6rem;
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.proyecto{
+    border-radius: 2rem;
+    background-color: #3C425A;
+    box-shadow: -2px 9px 24px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    align-items: flex-start;
+    margin-bottom: 4rem;
+    padding-bottom: 4rem;
+}
+.img-proyecto{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 18rem;
+    margin-inline: auto;
+    border-radius: 2rem 2rem 0 0;
+}
+
+.rhesident{
+    background-image: url('./assets/rhesident.png');
+}
+
+.empowering{
+    background-image: url('./assets/empoweringrace.png');
+}
+
+.bamx{
+    background-image: url('./assets/bamx.png');
+}
+
+.overlay-proyecto{
+    position: absolute;
+    width: 30rem;
+    height: 18rem;
+    border-radius: 2rem 2rem 0 0;
+    background-color:#72cabd71;
+}
+.nombre-proyecto{
+    width: 80%;
+    margin-bottom: 2rem;
+    text-align: center;
+    margin-inline: auto;
+    margin-top: 2rem;
+}
+
+.cont-categorias-proyecto{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: start;
+    margin-bottom: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    
+}
+
+.categoria{
+    border-radius: 25rem;
+    background-color: none;
+    border: 2px solid #89E4D6;
+    color: #89E4D6;
+    font-family: 'Fira Code';
+    padding: 0.2rem 2rem;
+    margin-right: 1rem;
+}
+
+.categoria p{
+    font-size: 1.4rem;
+}
+
+.enlace-proyecto{
+    margin-top: 4rem;
+    margin-inline: auto;
+}
+
+.descripcion-proyecto{
+    font-size: 1.6rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.descripcion-seccion-contacto{
+    width: 100%;
+    font-size: 2rem;
+    margin-top: 2rem;
+    text-align: left;
+}
+
+.descripcion-seccion-proyectos{
+    width: 100%;
+    font-size: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+
+.icono-enlace{
+    font-size: 3rem;
+    color: #89E4D6;
+}
+
+/* FOOTER */
+
+footer {
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+footer h3 {
+    font-family: 'Fira Code';
+    color: #90EFDF;
+    font-weight: 500;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+	html{
+        font-size: 9px;
+    }
+
+}
+
+@media screen and (max-width: 996px) {
+	html{
+        font-size: 8px;
+    }
+
+    .proyecto{
+        width: 35rem;
+    }
+
+    .overlay-proyecto{
+        width: 35rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    html{
+        font-size: 9px;
+    }
+
+    header{
+        margin-right: 5rem;
+        margin-left: 5rem;
+        box-sizing: border-box;
+    }
+
+    header .cont-items{
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .intro{
+        margin-bottom: 10rem;
+    }
+
+    main .about-me .title{
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    main .about-me{
+        margin-top: 20rem ;
+    }
+
+    main .about-me .cont-texts .t1{
+        width: 100%;
+    }
+    main .about-me .cont-texts .t2{
+        width: 100%;
+    }
+    main .about-me .cont-about{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main .about-me .cont-about .cont-texts{
+        width: 100%;
+    }
+
+    .skills{
+        margin-bottom: 10rem;
+    }
+    main .about-me .cont-lines{
+        display: none;
+    }
+
+    .proyecto{
+        width: 45rem;
+    }
+
+    .overlay-proyecto{
+        width: 45rem;
+    }
+
+    .correo{
+        font-size: 2.6rem;
+    }
+
+    main .contact-me .title{
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 4rem;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    main .contact-me{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    main .contact-me .cont-contact .cont-lines{
+        display: none;
+        align-items: center;
+    }
+
+    main .contact-me .cont-contact .cont-items{
+        width: 100%;
+    }
+    main .animated-icon{
+        width: 200%;
+        margin-top: 20rem;
+        margin-left: -5rem;
+    }
+
+    main .projects .title{
+        width: 80%;
+        align-items: center;
+    }
+
+    .descripcion-seccion-contacto{
+        width: 100%;
+        font-size: 2rem;
+        margin-top: 2rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:576px) {
+    header{
+        margin-right: 2rem;
+        margin-left: 2rem;
+        box-sizing: border-box;
+    }
+    header .cont-items ul li a {
+        font-size: 1.6rem;
+    }
+
+    main .animated-icon{
+        width: 300%;
+        margin-top: 30rem;
+        margin-left: -10rem;
+    }
+
+    main .projects .title{
+        width: 80%;
+        align-items: center;
+    }
+
+    .projects{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .proyecto{
+        width: 32rem;
+    }
+
+    .overlay-proyecto{
+        width: 32rem;
+    }
+}
+
+@keyframes computer-drawing {
+    0%{
+        stroke-dashoffset: 2200;
+    }
+    25%{
+        stroke-dashoffset: 0;
+    }
+    50%{
+        stroke-dashoffset: 2200;
+    }
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
