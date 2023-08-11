@@ -392,12 +392,15 @@ main .contact-me .cont-lines .vl1 {
     height: 30rem;
     border-radius: 25rem;
     background-color: #fff;
-    background-image: url('./assets/profile-pic_Compressed.png');
+    background-image: url('./assets/LinkedIn Actualizada.png');
     background-size: cover;
     background-position: center;
 }
 
-
+.icono-categoria{
+    font-size: 2.4rem;
+    color: #fff;
+}
 
 
 .cont-cards{
@@ -428,6 +431,9 @@ main .contact-me .cont-lines .vl1 {
     height: 18rem;
     margin-inline: auto;
     border-radius: 2rem 2rem 0 0;
+}
+.wtw{
+    background-image: url('./assets/wheeltheworld.png');
 }
 
 .rhesident{

@@ -118,9 +118,8 @@ function LandingPage() {
             </div>
             <div className="cont-texts">
               <p className="t1">
-                Mi nombre es Emmanuel Manzo. Soy un joven mexicano apasionado
-                por la tecnología y el diseño UX/UI, con experiencia en Ciencias
-                Computacionales.
+                Mi nombre es Emmanuel Manzo, Ingeniero en Tecnologías Computacionales por el Tecnológico de Monterrey. Soy un joven mexicano apasionado
+                por la tecnología y el diseño UX/UI.
               </p>
               <p className="t2">
                 A través del <span className="primario">diseño</span> y{" "}
@@ -135,11 +134,11 @@ function LandingPage() {
                   <ul>
                     <li className="skill">
                       <i className="fas fa-spinner"></i>
-                      <p>Figma</p>
+                      <p>React</p>
                     </li>
                     <li className="skill">
                       <i className="fas fa-spinner"></i>
-                      <p>React</p>
+                      <p>Figma</p>
                     </li>
                     <li className="skill">
                       <i className="fas fa-spinner"></i>
@@ -180,11 +179,28 @@ function LandingPage() {
             <h2 className="subtitle">
               <span>02.</span>Proyectos
               <p className="descripcion-seccion-proyectos">
-                Algunos de mis trabajos de desarrollo y diseño.
+                Algunos de mis trabajos destacados de desarrollo y diseño.
               </p>
             </h2>
           </div>
           <div className="cont-cards">
+          <div className="proyecto">
+              <div className="img-proyecto wtw"></div>
+              <div className="overlay-proyecto"></div>
+              <h4 className="nombre-proyecto">Wheel The World Dashboard</h4>
+              <div className="cont-categorias-proyecto">
+                <div className="categoria">
+                  <p className="nombre-categoria">Diseño</p>
+                </div>
+                <div className="categoria">
+                  <p className="nombre-categoria">Desarrollo</p>
+                </div>
+              </div>
+              <p className="descripcion-proyecto">
+                Aplicación de seguimiento de estadísticas desarrollado para la startup <span className="primario">Wheel The World</span>.  
+              </p>
+              
+            </div>
             <div className="proyecto">
               <div className="img-proyecto rhesident"></div>
               <div className="overlay-proyecto"></div>
@@ -204,7 +220,7 @@ function LandingPage() {
                 escencia, objetivos y trabajo de la organización.
               </p>
 
-              <a href="" className="enlace-proyecto">
+              <a href="https://www.rhesident.org/" className="enlace-proyecto">
                 <i class="fa-solid fa-link icono-enlace"></i>
               </a>
             </div>
@@ -216,13 +232,14 @@ function LandingPage() {
               <div className="cont-categorias-proyecto">
                 <div className="categoria">
                   <p className="nombre-categoria">Diseño</p>
+                  
                 </div>
               </div>
               <p className="descripcion-proyecto">
                 Diseño moderno y corporativo realizado para la plataforma de la
                 consultora y conferencista Grace Sandoval.
               </p>
-              <a href="" className="enlace-proyecto">
+              <a href="https://empoweringrace.com/" className="enlace-proyecto">
                 <i class="fa-solid fa-link icono-enlace"></i>
               </a>
             </div>
@@ -279,7 +296,7 @@ function LandingPage() {
       </main>
 
       <footer>
-        <h4 className="primario"><span>Emmanuel Manzo. 2022.  </span> </h4>
+        <h4 className="primario"><span>Emmanuel Manzo. 2023.  </span> </h4>
       </footer>
     </body>
   );
