@@ -197,7 +197,7 @@ function LandingPage() {
                 </div>
               </div>
               <p className="descripcion-proyecto">
-                Aplicación de seguimiento de estadísticas desarrollado para la startup <span className="primario">Wheel The World</span>.  
+                Aplicación de seguimiento de estadísticas y generación de reportes desarrollada para la startup <span className="primario">Wheel The World</span>.  
               </p>
               
             </div>
