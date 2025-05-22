@@ -239,9 +239,6 @@ function LandingPage() {
                 Diseño moderno y corporativo realizado para la plataforma de la
                 consultora y conferencista Grace Sandoval.
               </p>
-              <a href="https://empoweringrace.com/" className="enlace-proyecto">
-                <i class="fa-solid fa-link icono-enlace"></i>
-              </a>
             </div>
 
             <div className="proyecto">
